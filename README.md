@@ -33,4 +33,11 @@
 - CUSUM exercise to detect change in randomly generated i.i.d. samples
 - Medical image reconstruction using cross-validation errors for both Lasso and Ridge regression algorithms
  
-## [Report 5 - ]()
+## [Report 5 - AdaBoost, Random Forest, One-class SVM for Email Spam Classifier, Locally Weighted Linear Regression, Bias-variance Tradeoff](https://github.com/parthh-patel/Macine-Learning-I/blob/main/5%20-%20AdaBoost%2C%20Random%20Forest%2C%20One-class%20SVM%20for%20Email%20Spam%20Classifier%2C%20Locally%20Weighted%20Linear%20Regression%2C%20Bias-variance%20Tradeoff.pdf)
+- Difference between boosting and bagging, ways to prevent overfitting in CART, explanation of OOB errors, and bias-variance tradeoff in linear regression setting
+- AdaBoost algorithm by hand on sample data points including decision stumps, calculations of weights for each iteration, and final classifier results
+- Fit and visualized a CART model for a spam classifier using the UCR email spam dataset
+- Fit several Random Forest models on the same email spam dataset to compare test errors and plotted the test error vs number of trees for comparison
+- Used a One-class SVM approach for spam filtering and plotted the misclassification error vs gamma parameter for the OneClassSVM algorithm 
+- Created a local linear weighted linear regression function and used 5-fold CV to tune the bandwidth parameter $h$
+- Used the tuned model to make predictions for given input values and plotted a graph showing training data and prediction curve
